@@ -18,6 +18,6 @@ START_PIC = (os.environ.get("START_PIC", "https://telegra.ph/file/0e3738d56ff92e
 
 PORT = os.environ.get("PORT", "8080")
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "")
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1001863799556")
 
 FLOOD = int(os.environ.get("FLOOD", "5"))
